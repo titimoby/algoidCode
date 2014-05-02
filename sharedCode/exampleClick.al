@@ -1,6 +1,6 @@
-// on cr?e un objet ? manipuler 
+// on cree un objet a manipuler 
 set croix = object(){
-	// on cr?e son image graphique
+	// on cree son image graphique
 	set sprite = algo.stamp.clone (array {
         {14, -1, -1, -1, -1, -1, -1, 14},
         {-1, 14, -1, -1, -1, -1, 14, -1},
@@ -10,11 +10,11 @@ set croix = object(){
 				{-1, 14, -1, -1, -1, -1, 14, -1},
 				{14, -1, -1, -1, -1, -1, -1, 14}
 		}, 4);
-	// il a des coordonn?es
+	// il a des coordonnees
 	set x = 100
 	set y = 100	
 
-	// quand on le dessine, on efface d'abord l'?cran
+	// quand on le dessine, on efface d'abord l'ecran
 	set dessine = function(){
 		algo.goTo(x,y)
 		sprite.draw();
@@ -32,14 +32,14 @@ set action = function(x,y){
 	croix.y = y;
 }
 
-//d?but de ce que Algoid ex?cute
+//debut de ce que Algoid execute
 croix.dessine()
 ui.showAlgo();
 algo.hide();
 
-// si on clique, on ex?cute la fonction action
+// si on clique, on execute la fonction action
 algo.onClick(action)
-// on lance la fonction run d?s qu'elle est finie
-// ?a boucle jusqu'? ce qu'on clique le carr? stop
+// on lance la fonction run des qu'elle est finie
+// ca boucle jusqu'a ce qu'on clique le carre stop
 util.pulse(run)
 
