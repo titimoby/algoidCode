@@ -4,7 +4,7 @@ Bref, du partage autour du logiciel [Algoid](http://www.algoid.net/index_FR.php)
 
 ## License
 
-    Copyright 2013 Thierry Chantier
+    Copyright 2013-2014 Thierry Chantier
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -17,6 +17,7 @@ Bref, du partage autour du logiciel [Algoid](http://www.algoid.net/index_FR.php)
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
 
 ##Contribute
 
